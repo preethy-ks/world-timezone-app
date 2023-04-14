@@ -35,21 +35,24 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				<cloudHubDeployment>
+					<cloudHubDeployment>
+						<businessGroup />
 						<username>Preethyks-2</username>
 						<password>Gowri@2330</password>
 						<environment>Sandbox</environment>
+						<region>us-east-2</region>
 						<workers>1</workers>
-						<workerType>Micro</workerType>
-						<applicationName>worldtimezone-service</applicationName>
+						<workerType>MICRO</workerType>
+						<applicationName>pks-worldtimezone-service</applicationName>
 						<muleVersion>4.4.0</muleVersion>
-					</cloudHubDeployment>	
+						<objectStoreV2>true</objectStoreV2>
+					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
-	
-	
+
+
 
 	<dependencies>
 		<dependency>
