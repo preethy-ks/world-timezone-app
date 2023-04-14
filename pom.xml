@@ -43,10 +43,6 @@
 						<workerType>Micro</workerType>
 						<applicationName>worldtimezone-service</applicationName>
 						<muleVersion>4.4.0</muleVersion>
-						
-						
-
-
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
